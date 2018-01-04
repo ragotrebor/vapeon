@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67D5A247CE3F53A729E4A46F /* Pods_vapeon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF13B39643F4E50EFB01C93 /* Pods_vapeon.framework */; };
 		7C64F44A1FF31F75009CC5E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64F4491FF31F75009CC5E7 /* AppDelegate.swift */; };
-		7C64F44C1FF31F75009CC5E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64F44B1FF31F75009CC5E7 /* ViewController.swift */; };
 		7C64F44F1FF31F75009CC5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C64F44D1FF31F75009CC5E7 /* Main.storyboard */; };
 		7C64F4511FF31F75009CC5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C64F4501FF31F75009CC5E7 /* Assets.xcassets */; };
 		7C64F4541FF31F75009CC5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C64F4521FF31F75009CC5E7 /* LaunchScreen.storyboard */; };
 		7C64F45F1FF31F75009CC5E7 /* vapeonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64F45E1FF31F75009CC5E7 /* vapeonTests.swift */; };
 		7C64F46A1FF31F75009CC5E7 /* vapeonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64F4691FF31F75009CC5E7 /* vapeonUITests.swift */; };
+		7C64F4781FF32194009CC5E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C64F4771FF32194009CC5E7 /* GoogleService-Info.plist */; };
+		7C64F47A1FF32476009CC5E7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64F4791FF32476009CC5E7 /* LoginViewController.swift */; };
+		7C64F47D1FF324AF009CC5E7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64F47C1FF324AF009CC5E7 /* User.swift */; };
+		7C64F47F1FF331C5009CC5E7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64F47E1FF331C5009CC5E7 /* RegisterViewController.swift */; };
+		CEFB753E6D26B92FE9337850 /* Pods_vapeonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F3C87055B461A96ECCF399 /* Pods_vapeonUITests.framework */; };
+		DBA4D6D5814233B55D625349 /* Pods_vapeonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5342362579CD67F0472ECB /* Pods_vapeonTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EF13B39643F4E50EFB01C93 /* Pods_vapeon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vapeon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		288D79648C191F7073A578A6 /* Pods-vapeonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vapeonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vapeonTests/Pods-vapeonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44A803AFBC25EBE4035E5F85 /* Pods-vapeon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vapeon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vapeon/Pods-vapeon.debug.xcconfig"; sourceTree = "<group>"; };
+		5C5342362579CD67F0472ECB /* Pods_vapeonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vapeonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		789D58CD6CDBA44DBAD43F18 /* Pods-vapeonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vapeonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vapeonUITests/Pods-vapeonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79F3C87055B461A96ECCF399 /* Pods_vapeonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vapeonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C64F4461FF31F75009CC5E7 /* vapeon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vapeon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C64F4491FF31F75009CC5E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C64F44B1FF31F75009CC5E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C64F44E1FF31F75009CC5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C64F4501FF31F75009CC5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C64F4531FF31F75009CC5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,13 @@
 		7C64F4651FF31F75009CC5E7 /* vapeonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vapeonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C64F4691FF31F75009CC5E7 /* vapeonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vapeonUITests.swift; sourceTree = "<group>"; };
 		7C64F46B1FF31F75009CC5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C64F4771FF32194009CC5E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C64F4791FF32476009CC5E7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7C64F47C1FF324AF009CC5E7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7C64F47E1FF331C5009CC5E7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		89151822A413A0ECCB3350C6 /* Pods-vapeonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vapeonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vapeonUITests/Pods-vapeonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0F1DF19902910550E905B50 /* Pods-vapeon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vapeon.release.xcconfig"; path = "Pods/Target Support Files/Pods-vapeon/Pods-vapeon.release.xcconfig"; sourceTree = "<group>"; };
+		B7A0B7C201AE5AFFD5B58252 /* Pods-vapeonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vapeonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vapeonTests/Pods-vapeonTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D5A247CE3F53A729E4A46F /* Pods_vapeon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA4D6D5814233B55D625349 /* Pods_vapeonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFB753E6D26B92FE9337850 /* Pods_vapeonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47BA8EADA7F7E051D6CCC104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EF13B39643F4E50EFB01C93 /* Pods_vapeon.framework */,
+				5C5342362579CD67F0472ECB /* Pods_vapeonTests.framework */,
+				79F3C87055B461A96ECCF399 /* Pods_vapeonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7C64F43D1FF31F75009CC5E7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				7C64F45D1FF31F75009CC5E7 /* vapeonTests */,
 				7C64F4681FF31F75009CC5E7 /* vapeonUITests */,
 				7C64F4471FF31F75009CC5E7 /* Products */,
+				C6F729548D4BBB132889B5B6 /* Pods */,
+				47BA8EADA7F7E051D6CCC104 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +130,15 @@
 		7C64F4481FF31F75009CC5E7 /* vapeon */ = {
 			isa = PBXGroup;
 			children = (
+				7C64F47B1FF3248C009CC5E7 /* model */,
+				7C64F4771FF32194009CC5E7 /* GoogleService-Info.plist */,
 				7C64F4491FF31F75009CC5E7 /* AppDelegate.swift */,
-				7C64F44B1FF31F75009CC5E7 /* ViewController.swift */,
+				7C64F4791FF32476009CC5E7 /* LoginViewController.swift */,
 				7C64F44D1FF31F75009CC5E7 /* Main.storyboard */,
 				7C64F4501FF31F75009CC5E7 /* Assets.xcassets */,
 				7C64F4521FF31F75009CC5E7 /* LaunchScreen.storyboard */,
 				7C64F4551FF31F75009CC5E7 /* Info.plist */,
+				7C64F47E1FF331C5009CC5E7 /* RegisterViewController.swift */,
 			);
 			path = vapeon;
 			sourceTree = "<group>";
@@ -125,6 +161,27 @@
 			path = vapeonUITests;
 			sourceTree = "<group>";
 		};
+		7C64F47B1FF3248C009CC5E7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7C64F47C1FF324AF009CC5E7 /* User.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C6F729548D4BBB132889B5B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44A803AFBC25EBE4035E5F85 /* Pods-vapeon.debug.xcconfig */,
+				A0F1DF19902910550E905B50 /* Pods-vapeon.release.xcconfig */,
+				288D79648C191F7073A578A6 /* Pods-vapeonTests.debug.xcconfig */,
+				B7A0B7C201AE5AFFD5B58252 /* Pods-vapeonTests.release.xcconfig */,
+				789D58CD6CDBA44DBAD43F18 /* Pods-vapeonUITests.debug.xcconfig */,
+				89151822A413A0ECCB3350C6 /* Pods-vapeonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C64F46E1FF31F75009CC5E7 /* Build configuration list for PBXNativeTarget "vapeon" */;
 			buildPhases = (
+				E1990856016BAEB16941ECCE /* [CP] Check Pods Manifest.lock */,
 				7C64F4421FF31F75009CC5E7 /* Sources */,
 				7C64F4431FF31F75009CC5E7 /* Frameworks */,
 				7C64F4441FF31F75009CC5E7 /* Resources */,
+				03C7C1BDC511E3FF965E89C5 /* [CP] Embed Pods Frameworks */,
+				3EF446E05ECBFDA392B7782A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C64F4711FF31F75009CC5E7 /* Build configuration list for PBXNativeTarget "vapeonTests" */;
 			buildPhases = (
+				325A0B7DAC233497AD6ADCB7 /* [CP] Check Pods Manifest.lock */,
 				7C64F4561FF31F75009CC5E7 /* Sources */,
 				7C64F4571FF31F75009CC5E7 /* Frameworks */,
 				7C64F4581FF31F75009CC5E7 /* Resources */,
+				33F6AAB6C395424FDA37DF98 /* [CP] Embed Pods Frameworks */,
+				8A3F9F606FD79CE739C554F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C64F4741FF31F75009CC5E7 /* Build configuration list for PBXNativeTarget "vapeonUITests" */;
 			buildPhases = (
+				030FA0BBA529728B6F04A318 /* [CP] Check Pods Manifest.lock */,
 				7C64F4611FF31F75009CC5E7 /* Sources */,
 				7C64F4621FF31F75009CC5E7 /* Frameworks */,
 				7C64F4631FF31F75009CC5E7 /* Resources */,
+				A3A2CFAE5D13579A16561B89 /* [CP] Embed Pods Frameworks */,
+				73EACAB888547E96C7486B70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C64F4541FF31F75009CC5E7 /* LaunchScreen.storyboard in Resources */,
+				7C64F4781FF32194009CC5E7 /* GoogleService-Info.plist in Resources */,
 				7C64F4511FF31F75009CC5E7 /* Assets.xcassets in Resources */,
 				7C64F44F1FF31F75009CC5E7 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +321,169 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		030FA0BBA529728B6F04A318 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vapeonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		03C7C1BDC511E3FF965E89C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-vapeon/Pods-vapeon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vapeon/Pods-vapeon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		325A0B7DAC233497AD6ADCB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vapeonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33F6AAB6C395424FDA37DF98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vapeonTests/Pods-vapeonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EF446E05ECBFDA392B7782A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vapeon/Pods-vapeon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73EACAB888547E96C7486B70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vapeonUITests/Pods-vapeonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3F9F606FD79CE739C554F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vapeonTests/Pods-vapeonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A2CFAE5D13579A16561B89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vapeonUITests/Pods-vapeonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1990856016BAEB16941ECCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vapeon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C64F4421FF31F75009CC5E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C64F44C1FF31F75009CC5E7 /* ViewController.swift in Sources */,
+				7C64F47A1FF32476009CC5E7 /* LoginViewController.swift in Sources */,
 				7C64F44A1FF31F75009CC5E7 /* AppDelegate.swift in Sources */,
+				7C64F47D1FF324AF009CC5E7 /* User.swift in Sources */,
+				7C64F47F1FF331C5009CC5E7 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +647,7 @@
 		};
 		7C64F46F1FF31F75009CC5E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A803AFBC25EBE4035E5F85 /* Pods-vapeon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +663,7 @@
 		};
 		7C64F4701FF31F75009CC5E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F1DF19902910550E905B50 /* Pods-vapeon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +679,7 @@
 		};
 		7C64F4721FF31F75009CC5E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288D79648C191F7073A578A6 /* Pods-vapeonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +697,7 @@
 		};
 		7C64F4731FF31F75009CC5E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A0B7C201AE5AFFD5B58252 /* Pods-vapeonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +715,7 @@
 		};
 		7C64F4751FF31F75009CC5E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789D58CD6CDBA44DBAD43F18 /* Pods-vapeonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +732,7 @@
 		};
 		7C64F4761FF31F75009CC5E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89151822A413A0ECCB3350C6 /* Pods-vapeonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
